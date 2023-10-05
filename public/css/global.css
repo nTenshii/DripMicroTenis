@@ -1,0 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'JockeyOne';
+  src: url('../../public/assets/fonts/JockeyOne.ttf');
+}
