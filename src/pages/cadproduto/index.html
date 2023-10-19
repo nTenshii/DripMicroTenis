@@ -1,0 +1,53 @@
+<!--
+    SENAC - TADS Matutino Turma A - 4° semestre - Desenvolvimento Web
+    Projeto: Drip Micro Tenis
+    Aluno: Gabriel de Melo Silva e Kevin de Sousa Santos
+    Professor: Bruno Oliveira
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/global.css" />
+    <link rel="stylesheet" href="/public/css/normalize.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Cadastrar Produto</title>
+</head>
+
+<body>
+    <section class="cabecalho">
+        <img class="logoSite" src="../../../public/assets/images/logoSite.png" />
+        <img class="avatar01" src="../../../public/assets/images/avatar02.svg" />
+    </section>
+    <section class="conteudo">
+        <div class="campoCad">
+            <h1>ADICONAR PRODUTO</h1>
+            <div class="esq">
+                <label for="produto-marca"> Marca do Produto</label>
+                <select name="Marca">
+                    <option value="nike">NIKE</option>
+                    <option value="adidas">ADIDAS</option>
+                    <option value="newBalance">NEW BALANCE</option>
+                    <option value="nba">NBA</option>
+                </select>
+
+                <label for="produto-titulo">Título do Produto:</label>
+                <input type="text" id="produto-titulo" name="produto-titulo">
+
+                <label for="produto-descricao">Descrição do Produto:</label>
+                <textarea id="produto-descricao" name="produto-descricao"></textarea>
+            </div>
+            <div class="dir">
+                <label for="produto-imagem">Imagem do Produto:</label>
+                <input type="file" id="produto-imagem" name="produto-imagem">
+
+                <label for="produto-preco">Preço:</label>
+                <input type="number" id="produto-preco" name="produto-preco">
+            </div>
+            <input type="entrar" type="button" name="ADICIONAR">
+        </div>
+</body>
+
+</html>
